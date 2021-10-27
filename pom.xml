@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>dad.javafx</groupId>
+	<artifactId>IMC</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+
+	<name>DBAccess</name>
+	<description>Programa con javafx que muestra el imc usando bindeos</description>
+
+	<properties>
+		<maven.compiler.target>14</maven.compiler.target>
+		<maven.compiler.source>14</maven.compiler.source>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<exec.mainClass>aed.dbaccess.Main</exec.mainClass>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-controls</artifactId>
+			<version>14.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.18</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/net.sf.ucanaccess/ucanaccess -->
+		<dependency>
+			<groupId>net.sf.ucanaccess</groupId>
+			<artifactId>ucanaccess</artifactId>
+			<version>4.0.4</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
+		<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<version>7.0.0.jre10</version>
+		</dependency>
+
+
+	</dependencies>
+
+</project>
